@@ -49,7 +49,7 @@
 							<div class="col-md-6 col-md-offset-4">
 								<button type="submit" class="btn btn-primary">Entrar</button>
 
-								<a class="btn btn-link" href="{{ url('/auth/register') }}">Nuevo Usuario</a>
+								<!--<a class="btn btn-link" href="{{ url('/auth/register') }}">Nuevo Usuario</a>-->
 							</div>
 						</div>
 					</form>

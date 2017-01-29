@@ -6267,6 +6267,7 @@ label,
 
 #tamanopanel{
  border-radius: 20px;
+opacity: 0.94;
 
 }
 
@@ -6274,5 +6275,7 @@ label,
  border-radius: 20px 20px 0px 0px;
  text-align: center;
 font-size: 1.3em;
+
 }
+
 

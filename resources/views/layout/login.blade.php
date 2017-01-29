@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sistema de Monitoreo Diario del Estado de Oaxaca</title>
+	<title>PABIC</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 	{!!Html::style('css/style.css')!!}
@@ -25,7 +25,7 @@
 						<input type="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon lock"></a>
 					</li>
 					<div class="p-container">
-								<label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Recordar</label>
+								<!--<label class="checkbox"><input type="checkbox" name="checkbox" checked><i></i>Recordar</label>-->
 								<input type="submit"  value="ENTRAR" >
 							<div class="clear"> </div>
 					</div>

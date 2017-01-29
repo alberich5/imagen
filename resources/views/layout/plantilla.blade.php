@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Turismo</title>
+    <title>SIPAB</title>
   
     {!!Html::style('css/bootstrap.css')!!}
     {!!Html::style('css/simple-sidebar.css')!!}

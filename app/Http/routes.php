@@ -15,7 +15,7 @@ Route::get('/', 'HomeController@index');
 Route::get('home', 'HomeController@index');
 
 
-
+Route::get('crear', 'PruebaborrarController@index');
 
 //controladores de login
 Route::controllers([

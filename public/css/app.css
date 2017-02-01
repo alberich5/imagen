@@ -6256,9 +6256,23 @@ label,
 .fondo {
   background:url(../images/portada.png)  no-repeat center fixed;
   
-  background-size: cover;
-  position:relative;
+  background-size: 100%;
+ background-attachment: fixed;
   
+}
+#vacio{
+  width: 100%;
+  height: 650px;
+ 
+}
+#contenedor{
+  width: 100%;
+  height: 700px;
+  background-image: url('desenfoque.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+
 }
 
 #colorpanel{

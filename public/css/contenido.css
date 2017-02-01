@@ -2,7 +2,9 @@
   background: red;
 }
 body{
-	background: #020F39;
+	 
+     background-size: 100%;
+     background-color: #FFDDEE;
 }
 
 #mostrar{
@@ -124,3 +126,21 @@ aside{
         #slides img{
             float:left;
         }
+
+
+
+img {
+  border-radius:50%;
+margin-left: 10%;
+  -webkit-border-radius:50%;
+  -o-border-radius:50%;
+  -moz-border-radius:50%;
+  border:6px solid rgba(221, 218, 215, 0.23);
+
+}
+#izquierda{
+margin-left: 20%;
+}
+#centro{
+margin-left: 20%;
+}

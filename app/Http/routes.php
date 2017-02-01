@@ -14,7 +14,7 @@
 Route::get('/', 'HomeController@index');
 Route::get('home', 'HomeController@index');
 
-
+//ruta de prueba borrar despues
 Route::get('crear', 'PruebaborrarController@index');
 
 //controladores de login

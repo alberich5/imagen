@@ -14,6 +14,10 @@
     {!!Html::style('css/contenido.css')!!}
     {!!Html::style('js/lib/sweetalert.css')!!}
 
+    <!--estilos para el slider-->
+    {!!Html::style('css/themes/1/js-image-slider.css')!!}
+    {!!Html::script('css/themes/1/js-image-slider.js')!!} 
+
     {!!Html::script('js/jquery.js')!!}
     {!!Html::script('js/lib/sweetalert.min.js')!!}
     
@@ -41,15 +45,11 @@
 
     {!!Html::script('js/jquery.js')!!}
     {!!Html::script('js/bootstrap.min.js')!!}
+   
      
 
     <!-- scrip de lazamiento del boton -->
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
+   
 
 </body>
 

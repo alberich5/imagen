@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class PruebaborrarController extends Controller {
+class ContratoController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -14,7 +14,7 @@ class PruebaborrarController extends Controller {
 	 */
 	public function index()
 	{
-		return view('bien.crear');
+		return view('contrato.crear');
 	}
 
 	/**
@@ -24,7 +24,7 @@ class PruebaborrarController extends Controller {
 	 */
 	public function create()
 	{
-		return view('ubicacion.ubicacion');
+		//
 	}
 
 	/**
@@ -34,7 +34,7 @@ class PruebaborrarController extends Controller {
 	 */
 	public function store()
 	{
-		//
+		return "entrar";
 	}
 
 	/**

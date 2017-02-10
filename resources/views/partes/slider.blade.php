@@ -1,14 +1,28 @@
 
 <div class="inicio">
-	
-	<h2 align="center">Bienvenidos</h2>
-	<p>Sistema de monitoreo de ocupacion hotelera del estado de Oaxaca  para la generacion de  reportes de porcentajes de ocupacion diaria, de cada una de los destinos turisticos del estado contemplando los establecimientos que se encuentran registrados ante la secretaria de turismo y desarrollo economico del estado de Oaxaca.</p>
 
-	<div class="head">
-		<a href=" "><img src="{{ asset('/images/bien.png') }}" alt="" title="Presiona" /></a>
-		<a href=" "><img id="centro" src="{{ asset('/images/movi.png') }}" alt="" title="Presiona" /></a>
-		<a href=" "><img id="izquierda" src="{{ asset('/images/consulta.png') }}" alt="" title="Presiona" /></a>
-	</div>
+			
+    <div id="sliderFrame">
+            <div id="slider">
+                
+                    <img src="{{ asset('/images/slider/8.jpg') }}" alt="Bienvenido a Sipab" />
+               
+                <img src="{{ asset('/images/slider/9.jpg') }}" />
+                <img src="{{ asset('/images/slider/10.jpg') }}" alt="" />
+                <img src="{{ asset('/images/slider/11.jpg') }}" alt="#htmlcaption" />
+                <img src="{{ asset('/images/slider/12.jpg') }}" />
+            </div>
+            
+        </div><hr>
+        <h2 align="center">Bienvenidos</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+ </div>	
 	
-	
-</div>
+
+

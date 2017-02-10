@@ -48,8 +48,9 @@ body{
 	box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
 	padding: 1em 1em;
 }
+
 .inicio{
-    background: #D4D6D7;
+    background: white;
     width: 88%;
     margin-left: 5%;
     border-radius: 0.5em;
@@ -143,4 +144,57 @@ margin-left: 20%;
 }
 #centro{
 margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+.formulario2{
+    background: white;
+    width: 75%;
+    margin-left: 10%;
+    border-radius: 0.5em;
+    box-shadow: 3px 3px 6px rgba(0,0,0,0.5);
+    padding: 1em 1em;
+}
+
+#instalacion{
+
+    width: 10%;
+    text-align: center;
+
+    display: inline;
+
+}
+#numero{
+
+    width: 10%;
+    display: inline;
+    margin-left: 1%;
+    text-align: center;
+
+}
+
+#delegacion{
+
+    width: 10%;
+    display: inline;
+    margin-left: 1%;
+    text-align: center;
+ 
+}
+
+#ambito{
+    
+    width: 10%;
+    display: inline;
+    margin-left: 1%;
+    text-align: center;
+   
 }

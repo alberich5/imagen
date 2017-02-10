@@ -9,13 +9,16 @@
                     REGISTRAR
                 </li>
                 <li>
-                    <a href="{{ url('/crear') }}">Bien<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
+                    <a href="{{ url('/contrato') }}">Contrato<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
                 </li>
                 <li>
-                   <a href="">Oficina<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
+                   <a href="{{ url('/ubicacion') }}">Ubicacion del servicio<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
                 </li>
                 <li>
-                    <a href="">Movimiento<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
+                    <a href="{{ url('/modalidad') }}">Modalidad de servicio<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
+                </li>
+                <li>
+                    <a href="{{ url('/pago') }}">Pago Mensual<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
                 </li>
                 
                @if (Auth::user()->name == 'Admin')
@@ -28,25 +31,7 @@
                
                
                 
-                <li id="mostrar">
-                    REPORTES
-                </li>
-                
-                <li>
-                    <a href="">Lista de Bienes<span class="glyphicon glyphicon-search" aria-hidden="true"></a>
-                </li>
-                <li >
-                    <a href="" >Lista de movimientos<span class="glyphicon glyphicon-search" aria-hidden="true"></a>
-                </li>
-                <li >
-                    <a href="" >Catalogo de Bienes<span class="glyphicon glyphicon-search" aria-hidden="true"></a>
-                </li>
-                 <li id="mostrar">
-                    ELIMINAR
-                </li>
-                <li >
-                    <a href="" >Bien<span class="glyphicon glyphicon-trash" aria-hidden="true"></a>
-                </li>
+               
                 
                 
                 <li id="mostrar">

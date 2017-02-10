@@ -14,8 +14,14 @@
 Route::get('/', 'HomeController@index');
 Route::get('home', 'HomeController@index');
 
-//ruta de prueba borrar despues
-Route::get('crear', 'PruebaborrarController@index');
+
+
+//ruta de contrato
+Route::get('contrato', 'ContratoController@index');
+Route::get('ubicacion', 'UbicacionController@index');
+Route::get('modalidad', 'ModalidadController@index');
+Route::get('pago', 'PagoController@index');
+
 
 //controladores de login
 Route::controllers([

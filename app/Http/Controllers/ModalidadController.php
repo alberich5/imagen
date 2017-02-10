@@ -5,7 +5,7 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class PruebaborrarController extends Controller {
+class ModalidadController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
@@ -14,7 +14,7 @@ class PruebaborrarController extends Controller {
 	 */
 	public function index()
 	{
-		return view('bien.crear');
+		return view('modalidad.modalidad');
 	}
 
 	/**
@@ -24,7 +24,7 @@ class PruebaborrarController extends Controller {
 	 */
 	public function create()
 	{
-		return view('ubicacion.ubicacion');
+		//
 	}
 
 	/**

@@ -9,29 +9,8 @@
                     REGISTRAR
                 </li>
                 <li>
-                    <a href="{{ url('/contrato') }}">Contrato<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
+                    <a href="{{ url('/recursos/alta') }}">Iniciar<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
                 </li>
-                <li>
-                   <a href="{{ url('/ubicacion') }}">Ubicacion del servicio<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
-                </li>
-                <li>
-                    <a href="{{ url('/modalidad') }}">Modalidad de servicio<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
-                </li>
-                <li>
-                    <a href="{{ url('/pago') }}">Pago Mensual<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
-                </li>
-                
-               @if (Auth::user()->name == 'Admin')
-                   
-                    
-                    <li>
-                        <a href="">Personas<span class="glyphicon glyphicon-pencil" aria-hidden="true"></a>
-                    </li>
-               @endif
-               
-               
-                
-               
                 
                 
                 <li id="mostrar">

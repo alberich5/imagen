@@ -17,9 +17,12 @@
     <!--estilos para el slider-->
     {!!Html::style('css/themes/1/js-image-slider.css')!!}
     {!!Html::script('css/themes/1/js-image-slider.js')!!} 
+    
 
     {!!Html::script('js/jquery.js')!!}
     {!!Html::script('js/lib/sweetalert.min.js')!!}
+    {!!Html::script('js/push.min.js')!!}
+    {!!Html::script('js/bootstrap-datepicker.js')!!}
     
  
 </head>

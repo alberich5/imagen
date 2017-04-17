@@ -21,11 +21,11 @@
                                             @include('errors.mensaje')
                                                 
                                             {!! Form::open() !!}
-                                            <?php
-                                            $fecha = date("d-m-Y");
-                                                echo "<h4 class='form-group'>Fecha:".$fecha."</h4>";
-                                            ?>
-
+                                            
+                                            <div class="form-group">
+                                                    {!! Form::label('Actualizar Fecha:') !!}
+                                                    {!! Form::date('fecha', \Carbon\Carbon::now(),['class'=>'form-control']) !!}
+                                                </div>
                                              <!--nombre del bien-->
                                                 <div class="form-group">
                                                     {!! Form::label('Clave:') !!}
@@ -34,12 +34,13 @@
                                                                                  '3BDCAD003' => '3BDCAD003',
                                                                                  '3BDCAA031' => '3BDCAA031',
                                                                                  '3BDCAA001' => '3BDCAA001',
+                                                                                 '3BDCAD003' => '3BDCAD003',
                                                                                  '3BDCAA013' => '3BDCAA013',
-                                                                                 '3BDCAA028' => '3BDCAA028',
+                                                                                 '3BDCAA044' => '3BDCAA044',
                                                                                  '3BDCAA045' => '3BDCAA045'],null,['class'=>'form-control']) !!}
                                                 </div>
                                                 <div class="form-group">
-                                                    {!! Form::label('CampoNumerico:') !!}
+                                                    {!! Form::label('No. Elementos:') !!}
                                                     {!! Form::text('element',null,['class'=>'form-control','maxlength'=>'3','onkeypress'=>'return valida(event)']) !!}
                                                 </div>
                                                 <!--nombre del bien-->

@@ -24,7 +24,7 @@ class PagoController extends Controller {
 	 */
 	public function create()
 	{
-		//
+		
 	}
 
 	/**
@@ -32,9 +32,29 @@ class PagoController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(Request $request)
 	{
-		//
+		$rules = array(
+			'name' => 'required',
+			'cate' => 'required',
+			'cuartos' => 'required',
+			'status' => 'required',
+			'local' => 'required'
+			);
+
+		$this->validate($request, $rules);
+		
+		$id = $request['local'].'/';
+
+		Establecimiento::create([
+			'ID' => $id, 
+		 	'Nombre' => $request['name'], 
+		 	'Cve_Local' => $request['local'],
+		 	'Categoria' => $request['cate'],
+		 	'CuartosReg' => $request['cuartos'],
+		 	'status' => $request['status'],
+		 	]);
+		 
 	}
 
 	/**

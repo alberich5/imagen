@@ -37,7 +37,7 @@ Route::controllers([
 ]);
 
 
-
+//rutas  de las pestañas para mostrar el contenido de los apartados
 Route::get('/operativo/recurso', function () {
     return view('elementos.recursos');
 });

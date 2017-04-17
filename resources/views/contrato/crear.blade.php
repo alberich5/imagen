@@ -150,11 +150,13 @@
                                                                                  '5' => 'PENDIENTE PAGO'],null,['class'=>'form-control']) !!}
                                                 </div>
                                                 
+
                                                 <div class="checkbox">
                                                     <label>
-                                                      <input type="checkbox"  id="otro_serv" name="otro_serv" value="nuevo_serv"> Otro servicio
+                                                      <input type="checkbox"  id="otro_serv" name="otro_serv" value="nuevo_serv">Otro Servicio
                                                     </label>
                                                 </div>
+
                                                 <div id="nuevo_servicio" style="visibility: visible">
                                                     <input type="text" name="otro_servicio" class="form-control" placeholder="Ingrese el nuevo servicio" >
                                                 </div>
